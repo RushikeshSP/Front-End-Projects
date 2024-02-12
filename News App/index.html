@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushi's News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-main container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="/assets/logo.png" alt="company logo">
+            </a>
+            <div class="nav-items">
+                <ul class="flex">
+                    <li class="hover-link item" id="item-ipl" data-search="ipl">IPL</li>
+                    <li class="hover-link item" id="item-finance" data-search="finance">Finance</li>
+                    <li class="hover-link item" id="item-politics" data-search="politics">Politics</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-txt" type="text" class="input-news" placeholder="e.g. Science">
+                <button class="search-btn" id="search-btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+    </main>
+
+    <template id="template-news-cards">
+        <div class="cards">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="News-Image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 06/02/2024</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci eaque quas tempora nemo velit. Numquam ex quo cupiditate non.</p>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

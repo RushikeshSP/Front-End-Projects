@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="todo-app">
+            <div class="app-header flex">
+                <h2>To-Do List</h2>
+                <img src="images/icon.png" alt="todo-logo">
+            </div>
+            <div class="app-row flex">
+                <input id="todo-input" type="text" placeholder="Start adding list items..">
+                <button onclick="addToList()" id="todo-add">Add</button>
+            </div>
+            <ul class="todo-list">
+                <!-- <li class="checked">list 1</li>
+                <li>list 2</li>
+                <li>list 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
