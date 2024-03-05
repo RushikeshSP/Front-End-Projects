@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Which planet is closest to the Sun?",
+        "options": [
+            "Mars",
+            "Earth",
+            "Venus",
+            "Mercury"
+        ],
+        "answer": "Mercury"
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": [
+            "Rome",
+            "Berlin",
+            "Paris",
+            "Madrid"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "question": "Which animal is known as the \"king of the jungle\"?",
+        "options": [
+            "Tiger",
+            "Lion",
+            "Elephant",
+            "Gorilla"
+        ],
+        "answer": "Lion"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "O",
+            "H2O",
+            "CO2",
+            "H2SO4"
+        ],
+        "answer": "H2O"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Michelangelo",
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Vincent van Gogh"
+        ],
+        "answer": "Leonardo da Vinci"
+    }
+]
